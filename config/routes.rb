@@ -1,6 +1,6 @@
 Twittr::Application.routes.draw do
 
-  get "users/new"
+  resources :users
 
   # STATIC PAGES 
   root to: 'static_pages#home'
